@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 @="Delete Thumbs.db"
 
 [HKEY_CLASSES_ROOT\dbfile\shell\ThumbsCleaner\command]
-@="cmd.exe /c del /s /q /a:h \"%1\""
+@="cmd.exe /c del /q /a:h \"%1\""
 
 [HKEY_CLASSES_ROOT\dbfile\shell\ThumbsCleaner\InProcServer32]
 @=""
