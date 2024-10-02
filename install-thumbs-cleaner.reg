@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 @="Delete Thumbs.db"
 
 [HKEY_CLASSES_ROOT\dbfile\shell\ThumbsCleaner\command]
-@="cmd.exe /c del /s /q \"%1\" && del /s /q /a:h \"%1\""
+@="cmd.exe /c del /s /q /a:h \"%1\""
 
 [HKEY_CLASSES_ROOT\dbfile\shell\ThumbsCleaner\InProcServer32]
 @=""
@@ -13,10 +13,10 @@ Windows Registry Editor Version 5.00
 @="Delete Thumbs.db Recursively"
 
 [HKEY_CLASSES_ROOT\Directory\shell\ThumbsCleaner\command]
-@="cmd.exe /c del /s /q \"%1\\Thumbs.db\" && del /s /q /ah \"%1\\Thumbs.db\""
+@="cmd.exe /c del /s /q /ah \"%1\\Thumbs.db\""
 
 [HKEY_CLASSES_ROOT\Directory\background\shell\ThumbsCleaner]
 @="Delete Thumbs.db Recursively"
 
 [HKEY_CLASSES_ROOT\Directory\background\shell\ThumbsCleaner\command]
-@="cmd.exe /c del /s /q \"%V\\Thumbs.db\" && del /s /q /ah \"%V\\Thumbs.db\""
+@="cmd.exe /c del /s /q /ah \"%V\\Thumbs.db\""
